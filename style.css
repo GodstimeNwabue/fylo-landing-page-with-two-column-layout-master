@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Courier, monospace;
+    font-weight: 400;
+}
+
+.container {
+    padding: 4rem 2rem;
+}
+
+h2, h3 {
+    font-weight: 700;
+}
+
+h2, h3, button {
+    font-family: 'Raleway', Courier, monospace;
+}
+
+button {
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-- {
+    display: flex;
+    gap: 2.0rem;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* main {
+    margin-top: 4.0rem;
+} */
+
+.access_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.access_box-delivery {
+    width: 36%; 
+}
+
+.access_box-delivery img {
+    width: 100%;
+}
+
+.access_box-text {
+    line-height: 1.4;
+}
+
+.access_box-text p {
+    padding: 1.3rem 0rem;
+    font-size: large;
+}
+
+.access_box-text h2 {
+    font-size: xx-large;
+}
+
+.access_box-button, .access_box-input {
+    padding: 0.8rem 0.8rem;
+    outline: 0;
+    border-radius: 6.5px;
+}
+
+.access_box-input {
+    border-color: #f8f8fe;
+}
+
+.access_box-button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-color:  hsl(224, 93%, 58%);
+    width: 45%;
+    font-weight: bold;
+    box-shadow: 1px 3px 11px -2px  rgb(61, 56, 56);
+}
+
+.active:hover  {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bg-desktop {
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4rem;
+    height: 20vh;
+    /* position: absolute;
+    left: 0;
+    top: -121px;
+    width: 100%; */
+}
+
+.bg-color {
+    background-color: #f8f8fe; 
+    padding-bottom: 4rem;
+}
+/* 
+.bg-color {
+    background-color: #f8f8fe; */
+    /* position: relative;
+    padding-bottom: 80px;
+} */
+
+.productive {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* .productive_team {
+    width: 50%;
+}
+
+.productive_team img {
+    width: 100%;
+} */
+
+.productive_collaboration {
+    width: 36%;
+}
+
+.productive_collaboration img {
+    width: 100%;
+}
+
+.productive_location {
+    line-height: 1.4;
+}
+
+.productive_location h2 {
+    font-size: xx-large;
+    padding-bottom: 1.1rem;
+}
+
+.productive_location p {
+    font-size: large;
+    padding-top: 1.0rem;
+}
+
+.productive_location_access a {
+    color:  hsl(170, 45%, 43%);
+}
+
+.productive_team {
+    background-color: white;
+    color: black;
+    width: 80%;
+    padding: 2.0rem;
+    margin-top: 1.2rem;
+    border-radius: 0.7rem;
+    box-shadow: 0px 1px 7px -2px rgb(61, 56, 56);
+}
+
+.productive_team p {
+    padding-top: 0;
+}
+
+.productive_team {
+    margin-top: 2.5rem;
+}
+
+.productive_team-card {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1.1rem;
+}
+
+.productive_team-card img {
+    border-radius: 65px;
+    width: 16%;
+}
+
+.hero {
+    background-color: hsl(238, 22%, 44%);
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1.5rem 1.0rem;
+}
+
+.support_access {
+    line-height: 1.4;
+} 
+
+.support_access h2 {
+    padding-bottom: 1.1rem;
+    font-size: xx-large;
+}
+
+.support_access p {
+    font-size: large;
+}
+
+.support form {
+    width: 30%;
+}
+
+.support_access-input {
+    width: 100%;
+    outline: 0;
+    border: #f8f8fe;
+}
+
+.support_access-input, .support_access-button {
+    padding: 0.8rem 0.8rem;
+    border-radius: 6.5px;
+}
+
+.support button {
+    margin-top: 1.1rem;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-color:  hsl(224, 93%, 58%);
+    /* width: 45%; */
+    font-weight: bold;
+    box-shadow: 1px 3px 7px 0px rgb(61, 56, 56);
+}
+
+/**styles on footer section*/
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    font-size: large;
+}
+
+/* footer article {
+    padding-top: 4rem;
+} */
+
+.contact {
+    display: flex;
+    line-height: 2;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+/* 
+.contact:hover {
+    color:  hsl(243, 87%, 12%);
+} */
+
+.contact > div p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
+}
+
+.brands {
+    background-color: white;
+}
+
+.brands > div {
+    display: flex;
+}
+
+
