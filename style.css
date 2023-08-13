@@ -296,20 +296,25 @@ ul li:hover {
 .brands {
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
+/* 
+.brands svg {
+    width: 20%;
+} */
 
 .brands>div {
     display: flex;
 }
 
-.brands img {
+.brands svg {
     border: 1px solid;
     border-radius: 35px;
     padding: 10px 5px;
 }
 
-.brands img:hover {
-    fill: aquamarine;
+.brands svg:hover {
+    fill: hsl(224, 93%, 58%);
     /* background-color: aliceblue; */
     cursor: pointer;
 }
@@ -392,6 +397,10 @@ ul li:hover {
 
     .contact {
         flex-direction: column;
+    }
+
+    article img {
+        width: 20%;
     }
 
     .brands {
