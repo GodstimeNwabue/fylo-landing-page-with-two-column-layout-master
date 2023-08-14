@@ -14,7 +14,6 @@ Frontend Mentor challenges offer an opportunity to enhance your skills within a 
 ## Table of Contents
 
 - [Screenshots](#screenshots)
-- [Welcome] (#welcome)
 - [The Challenge](#the-challenge)
 - [Links](#links)
 - [Built With](#built-with)
