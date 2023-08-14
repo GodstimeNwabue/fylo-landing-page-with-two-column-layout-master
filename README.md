@@ -33,8 +33,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox--yr8v2lcG9)
-- Live Site URL: [Add live site URL here](https://godstimenwabue.github.io/fylo-landing-page-with-two-column-layout-master/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox--yr8v2lcG9)
+- [Live site URL](https://godstimenwabue.github.io/fylo-landing-page-with-two-column-layout-master/)
 
 ## Built With
 
